@@ -1,0 +1,35 @@
+# Root-level .gitignore
+
+# Ignore node_modules and build files in Frontend (ReactJS)
+Frontend/node_modules/
+Frontend/build/
+Frontend/.env.local
+Frontend/.env.development
+Frontend/.env.production
+Frontend/.env.test
+
+# Logs
+Frontend/npm-debug.log*
+Frontend/yarn-debug.log*
+Frontend/yarn-error.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore Python environment and compiled files in Backend (Flask)
+Backend/venv/
+Backend/__pycache__/
+Backend/*.pyc
+Backend/*.pyo
+Backend/*.pyd
+Backend/.env
+Backend/.env.*
+
+# Ignore Flask cache and instance folder
+Backend/instance/
+Backend/.pytest_cache/
+Backend/.mypy_cache/
+
+# VS Code settings (if you're using it)
+.vscode/
